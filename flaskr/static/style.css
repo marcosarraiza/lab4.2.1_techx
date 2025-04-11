@@ -1,21 +1,44 @@
+
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+/* Base styles */
 html {
-    margin: 25px;
-    background-color: lightblue;
-    font-family: verdana;
-    font-size: 20px;
+    background-color: #f8f9fa; /* Soft Ivory */
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    color: #555555; /* Dim Gray for body text */
 }
 
+body {
+    margin: 25px;
+}
+
+/* Headings */
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
-    font-size: 30px;
-    font-weight: bolder;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333; /* Charcoal Gray */
 }
 
+/* Paragraphs */
 p {
     margin-top: 10px;
     margin-left: 15px;
-    background-color: lightblue;
+    background-color: #f0f0f0; /* Pale Gray */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Navbar overrides */
+.navbar {
+    background-color: #4a90e2; /* Muted Blue */
+}
+
+.navbar-item {
+    color: #ffffff !important; /* White text in navbar */
+}
+
+.navbar-item:hover {
+    background-color: #357ABD !important; /* Slightly darker blue on hover */
 }
